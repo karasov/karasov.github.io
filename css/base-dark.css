@@ -1,0 +1,99 @@
+@import "casper-web/casper.css";
+
+@font-face{ 
+	font-family: 'WebSymbolsLigaRegular';
+		src: url('websymbolsliga/websymbolsligaregular.eot');
+		src: url('websymbolsliga/websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+			url('websymbolsliga/websymbolsligaregular.woff') format('woff'),
+			url('websymbolsliga/websymbolsligaregular.ttf') format('truetype'),
+			url('websymbolsliga/websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
+}
+
+html {
+        height:100%;
+        background: url(../img/background-photo.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: black;
+}
+
+.no-margin { margin:0!important; }
+.no-padding { padding:0!important; }
+.no-back { background:none!important; }
+.no-border { border:0!important; }
+.leftpad { padding-left:10px!important; }
+.rightpad { padding-right:10px!important; }
+
+body {
+	font:62.5%/1.2 casper, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+	color:#bbb;
+	min-height: 100%;
+}
+
+#btop, #bbottom, #bleft, #bright {
+	background: #fff;
+	position: fixed;
+	z-index:20;
+	}
+	#bleft, #bright {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#bleft { left: 0; }
+		#bright { right: 0; }
+		
+	#btop, #bbottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#btop { top: 0; }
+		#bbottom { bottom: 0; }
+
+#out {	z-index:10;	position:relative;	margin:0 auto; }
+#outmargin { padding-left:70px; padding-top:60px; padding-right:60px; }
+#outmargin2 { padding-left:70px; padding-right:30px; }
+
+p {	margin-bottom:.8em; font-size:1.5em; text-rendering: optimizeLegibility; }
+.intro { font-size:2.2em; margin-bottom:.4em;}
+
+h1 { font-family: casper_bold; }
+
+h1 { font-family: casper, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Trebuchet MS', Helvetica, Arial, sans-serif; margin-bottom:.4em; font-size:4em; font-weight:normal; letter-spacing:-.04em; color:#46deff; text-rendering: optimizeLegibility; }
+h2 { font-family: casper, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Trebuchet MS', Helvetica, Arial, sans-serif; margin-bottom:.4em; font-size:2.2em; font-weight:normal; margin-top:1em; letter-spacing:-.03em; color:#fff; text-rendering: optimizeLegibility; }
+h3 { font-family: casper, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Trebuchet MS', Helvetica, Arial, sans-serif; margin-bottom:.4em; font-size:1.6em; font-weight:normal; color:#46deff; text-rendering: optimizeLegibility; }
+
+sup { font-size: 0.8em;	letter-spacing: 0.1em; vertical-align:super; }
+
+a {	color:#46deff; text-decoration:underline; }
+a:visited { color:#46deff; }
+a:hover { color:#f39c12; text-decoration:underline; }
+
+.m-top { margin-top: 1em;}
+
+.icon { padding:1px; padding-left:21px; display:inline-block; width: 70px; line-height:1.3em; }
+
+.twit { color:#12adee; text-decoration:none; } .twit:visited { color:#12adee; } .twit:hover { color:#000; text-decoration:none; }
+.facebook { color:#3c5998; text-decoration:none; } .facebook:visited { color:#3c5998; } .facebook:hover { color:#000; text-decoration:none; }
+.vk { color:#5a7da7; text-decoration:none; } .vk:visited { color:#5a7da7; } .vk:hover { color:#000; text-decoration:none; }
+.tumblr { color:#2c4762; text-decoration:none; } .tumblr:visited { color:#2c4762; } .tumblr:hover { color:#000; text-decoration:none; }
+.instagram { color:#a58164; text-decoration:none; } .instagram:visited { color:#a58164; } .instagram:hover { color:#000; text-decoration:none; }
+.ytube { color:#c03525; text-decoration:none; } .ytube:visited { color:#c03525; } .ytube:hover { color:#000; text-decoration:none; }
+.pinterest { color:#c92923; text-decoration:none; } .pinterest:visited { color:#c92923; } .pinterest:hover { color:#000; text-decoration:none; }
+.lastfm { color:#db2200; text-decoration:none; } .lastfm:visited { color:#db2200; } .lastfm:hover { color:#000; text-decoration:none; }
+.soundcloud { color:#fc5f00; text-decoration:none; } .soundcloud:visited { color:#fc5f00; } .soundcloud:hover { color:#000; text-decoration:none; }
+.dropbox { color:#33a0e8; text-decoration:none; } .dropbox:visited { color:#33a0e8; } .dropbox:hover { color:#000; text-decoration:none; }
+
+.moikrug { background:url(../img/contact-icons.png) -5px -84px no-repeat; width: 128px!important; }
+.behance { background:url(../img/contact-icons.png) -6px -113px no-repeat; width: 95px!important; }
+
+.mail { background:url(../img/contact-icons.png) -5px 0px no-repeat; text-decoration:none; color:#46deff; }
+.skype { background:url(../img/contact-icons.png) -5px -28px no-repeat; text-decoration:none; color:#46deff; line-height:1.4em;}
+.mobile { background:url(../img/contact-icons.png) -5px -59px no-repeat; text-decoration:none; color:#46deff; width: 120px!important; }
+
+.c01 { float:left; margin-bottom: 20px; margin-right: 50px; }
+.c02 { float:left; margin-bottom: 20px; }
+
+.social { font-family: 'WebSymbolsLigaRegular'; clear:left; padding-top: 20px;  padding-left:70px; padding-bottom: 20px; padding-right: 60px; font-size:30px; background: url(../img/bg-social.png) no-repeat center left;}
+.copy { font-family: casper_italic; clear:left; padding-top: 30px; color:#999; font-size:1.3em; padding-left:70px; padding-bottom: 70px; }

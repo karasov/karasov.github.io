@@ -1,0 +1,11 @@
+
+#out {	z-index:10;	position:relative;	margin:0 auto; padding:80px; padding-top:60px; padding-right:60px; }
+h3 { margin-bottom:.4em; font-size:1.6em; color:#FA327B; }
+
+.c03 { clear:both; float:left; margin-right: 6%; width: 69%;}
+.c04 { float:left; width: 25%; }
+
+.c03 p { padding-left: 10px; font-size:1.4em; line-height:1.45em;}
+.c04 p { padding-left: 15px; line-height:1.35em;}
+.c04 em { color:#999; }
+.c04 strong { color:#222; }

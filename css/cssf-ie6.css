@@ -1,0 +1,4 @@
+/* IE 6 Hacks */
+
+body { behavior: url("css/csshover.htc"); }
+.png24 { behavior: url("css/iepngfix.htc"); }

@@ -1,0 +1,43 @@
+
+html { height:100%; background:#fff; }
+
+.no-margin { margin:0!important; }
+.no-padding { padding:0!important; }
+.no-back { background:none!important; }
+.no-border { border:0!important; }
+.leftpad { padding-left:10px!important; }
+.rightpad { padding-right:10px!important; }
+
+body {
+	font:62.5%/1.2 Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;
+	background:#fff;
+	min-height: 100%;
+}
+
+#out {	z-index:10;	position:relative;	margin:0 auto; padding:20px; }
+
+p {	margin-bottom:.8em; font-size:1.3em; }
+
+.cntr { text-align:center; }
+.cont { padding:20px; background:url(../macmini/Mini-mimimi-bg.png) center no-repeat; clear:both; }
+
+.soc { width:480px; margin: 0 auto; position:relative; display:block; }
+.vk { width:200px; float:left; display:inline-block; }
+.fb { width:160px; float:left; display:inline-block; }
+.tw { width:100px; float:right; display:inline-block; }
+
+h1 { margin-bottom:.4em; font-size:18px; font-weight:normal; color:#6f676c; text-align:center; }
+h2 { margin-bottom:1em; font-size:15px; letter-spacing:.05em; font-weight:bold; color:#6f676c; text-align:center; }
+
+.upp { font-size:12px; letter-spacing:.2em; text-transform: uppercase; }
+
+sup { font-size: 0.8em;	letter-spacing: 0.1em; vertical-align:super; }
+
+a {	color:#6f676c; text-decoration:underline; }
+a:visited { color:#6f676c; }
+a:hover { color:#FA327B; text-decoration:underline; }
+
+.c01 { float:left; margin-right: 50px; }
+.c02 { float:left; }
+.copy { clear:left; padding-top: 40px; font-style:oblique; color:#bbb; font-size:1.2em; }
