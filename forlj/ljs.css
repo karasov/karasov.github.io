@@ -1,0 +1,193 @@
+body, td {
+	background: #2D342D;
+	font: 12px Georgia;
+	color: #70807A;
+	margin: 0;
+	padding: 0;
+}
+body {
+	border-top:#000000 solid 6px;
+}
+a:link, a:active, a:visited, #navbar a:link, #navbar a:active, #navbar a:visited, .altposter a {
+	background: transparent;	
+	color: #9CC1B7;
+	border-bottom: #9CC1B7 dotted 1px;
+	text-decoration: none;
+}
+.ljuser a, .ljuser a:hover {
+	border: 0;
+}
+a:visited {
+	color: #7E9C94;
+}
+a:hover, #navbar a:hover, .altposter a:hover {
+	background: transparent;	
+	color: #DFECAA;
+	border-bottom: #DFECAA dotted 1px;
+	text-decoration: none;
+}
+table {
+	margin: 0px;
+	width: 100%;
+}
+pre {
+	text-align: left;
+}
+#lj_controlstrip{
+	display:none;
+	visibility:hidden;
+}
+#topbar {
+	background: transparent;
+	background: url(http://www.karasov.ru/forlj/header.jpg) no-repeat left top;
+	height: 220px;
+}
+#topbar h1 {
+	display: none;
+}
+#topbar h2 {
+	display: none;
+}
+#navbar {
+	background: transparent;
+	background: url(http://www.karasov.ru/forlj/nav-fon.jpg) no-repeat left top;
+	color: #DFECAA;
+	width: 200px;
+	padding-top: 35px;
+}
+#navbar ul {
+	list-style:none;
+	margin: 0px;
+	padding: 0;
+	font-size: 11px;
+	margin-top: 10px;
+}
+#navbar ul li {
+	margin: 2px 0;
+	padding: 2px 10px;
+	padding-left: 35px;
+	list-style-position: inside;
+	list-style-type: none;
+}
+#navbar ul li:before {
+	content: ""
+	font-weight: normal;
+}
+#navbar ul li.active {
+	font-weight: bold;
+}
+#mainstuff {
+	background: transparent;
+	color: #FFF;
+	width: auto;
+}
+
+div#userpic { display: none; }
+div#userpic img { display: none; }
+
+#entries {
+	margin: 10px;
+}
+#range {
+	display: none;
+}
+.day {
+	border-top: 1px dashed #3D453D;
+	clear: both;
+	width: 700px;
+	max-width: 700px;
+	padding-top: 8px;
+}
+.day h3 {
+	border-bottom: 0;
+	background:#1B1F1B;
+	margin: 0;
+	padding: 3px;
+	padding-right:7px;
+	font-weight: normal;
+	font-size: 10px;
+	text-align: left;
+	color: #4F594F;
+	display: inline;
+	background: url(http://www.karasov.ru/forlj/date-arrow.gif) no-repeat right top;
+	font-family: verdana;
+}
+
+address {
+	display: none;
+}
+
+/* entries */
+.entrytext {
+	padding: 0;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 15px;
+	color: #bbb;
+}
+.entry {
+	clear: both;
+	text-align: right;
+	margin-bottom: 20px;
+}
+.entrytext p, .entrytext ul, .entrytext ol, .entrytext table {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.entryheading {
+	font-weight: normal;
+	font-size: 20px;
+	color: #2D332D;
+	margin: -7px 0 7px 0;
+	display: block;
+}
+.timestamp, .subject, .altposter {
+	font-weight: normal;
+	color: #DFECAA;
+	background: transparent;
+	letter-spacing: -1px;
+}
+.timestamp {
+	color: #4F594F;
+}
+.altposter img {
+	border: 0;
+	background: transparent;
+	color: #000000;
+}
+.talklinks {
+	font-size: 11px;
+	text-align: right;
+	font-weight: normal;
+	margin-bottom: 2px;
+	clear: right;
+}
+.img {
+	text-align: center;
+	margin: 20px 0;
+}
+.author {
+	text-align: right;
+	color: #4F594F;
+	font-size: 11px;
+}
+blockquote {
+	background: url(http://www.karasov.ru/forlj/quote.gif) no-repeat left top;
+	padding-left: 40px;
+	margin:10px;
+}
+.content {
+	margin-top: 20px;
+}
+.currents {
+	padding-top: 20px;
+	color:#4F594F;
+}
+.currentmusic, .currentmood {
+	color:#4F594F;
+}
+
+
+

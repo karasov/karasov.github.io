@@ -1,0 +1,444 @@
+/* Cleaned CSS: */
+
+  #lj_controlstrip, .designed-widget {
+	 display:none;
+	 visibility:hidden;
+  }
+
+  .pageblock {
+	 margin-top:-40px;
+  }
+
+  body {
+     font-family: arial, sans-serif;
+     font-size: 13px;
+     margin: 0;
+     background-color: #ffffff;
+     color: #333333;
+     }
+
+  a {
+     color: #10ade1;
+     }
+
+  a:visited {
+     color: #63caeb;
+     }
+
+  a:hover {
+     color: #e70d55;
+	 text-decoration:none;
+     }
+
+  .header-title {
+     background-color: transparent;
+     font-family: arial black, arial, helvetica, sans-serif;
+     font-size: 46px;
+	 font-weight:bold;
+	 letter-spacing:-.1em;
+     color: #e70d55;
+     padding: 25px 40px 0px 40px;
+     }
+
+  .header-subtitle {
+     background-color: transparent;
+     color: #bcc803;
+     font-family: trebuchet ms, arial, helvetica, sans-serif;
+	 font-style:oblique;
+	 letter-spacing:-.02em;
+     font-size: 16px;
+     padding: 0px 40px 12px 40px;
+	 margin-top:-6px;
+     }
+
+  .header-icon {
+     top: 0px;
+     right: 0px;
+     position: absolute;
+     z-index: 1;
+     border-left: 2px solid #ffffff;
+     border-bottom: 2px solid #ffffff;
+     }
+
+  .pageheaderblock {
+     text-align: left;
+     }
+
+  .pagefooterblock {
+     border-top: 2px solid #ffffff;
+     background-color: transparent;
+     color: #333333;
+     padding: 4px 4px 4px 24px;
+     margin-top: 4px;
+	 display:none;
+     }
+
+  .bodyblock {
+     padding: 10px 40px 0px 40px;
+     }
+
+  .bodyheaderblock {
+     background-color: transparent;
+     padding: 4px 30px 4px 30px;
+	 margin-top:30px;
+	 margin-bottom:18px;
+	 border-left:#000000 10px solid;
+     }
+
+  .body-title {
+     font-family: trebuchet ms, arial, helvetica, sans-serif;
+     font-size: 30px;
+	 font-style:oblique;
+	 font-weight:bold;
+	 letter-spacing:-.055em;
+     color: #999;
+     text-align: left;
+     }
+
+  .body-midtitle {
+     font-family: trebuchet ms, arial, helvetica, sans-serif;
+     font-size: 18px;
+     color: #333333;
+     text-align: left;
+     }
+
+  .header-menu {
+     padding: 0px;
+     background-color: transparent;
+     padding-left: 34px;
+     font-size: 14px;
+     line-height: 22px;
+     }
+
+  .header-menu a, .header-menu a:visited,
+  #footer-menu a, .footer-menu a:visited,
+  .bodynavblock a, .bodynavblock a:visited {
+     white-space: nowrap;
+     text-align: left;
+     padding: 2px 6px 2px 6px;
+     color: #e70d55;
+     text-decoration: underline;
+     }
+
+  .header-menu a:hover,
+  #footer-menu a:hover,
+  .bodynavblock a:hover {
+     background-color: #e70d55;
+     color: #fff;
+	 text-decoration:none;
+     }
+
+  .header-menu ul, #footer-menu ul {
+     margin: 0px;
+     padding: 0px;
+     }
+
+  .header-menu li, #footer-menu li {
+     display: inline;
+     }
+
+  #footer-menu {
+     background-color: transparent;
+     color: #333333;
+     margin: 0 0 40px 0;
+     padding: 0;
+     }
+
+  .bodynavblock {
+     background-color: transparent;
+     color: #333333;
+     margin: 0 0 40px 0;
+     padding: 0;
+     }
+
+  .entryHolder {
+     color: #333333;
+     background-color: transparent;
+     font-size: 13px;
+     margin: 0px 0px 40px 0px;
+     }
+
+  .entryUserinfo {
+     text-align: left;
+     margin: 0px 8px 8px 0px;
+     background-color: transparent;
+     }
+
+  .entryUserinfo-usericon img {
+     border: 0;
+     }
+
+  .entryText {
+     padding: 6px;
+     padding-left: 20px;
+     }
+
+  .entryHeader {
+     background-color: transparent;
+     font-size: 16px;
+	 letter-spacing:-.02em;
+     font-family: trebuchet ms, arial, helvetica, sans-serif;
+     padding: 0 0 8px 0;
+     }
+
+  .entryHeader a{
+     color: #10ade1;
+     }
+
+  .entryHeaderSubject {
+     font-weight: bold;
+     font-size: 20px;
+     color: #e70d55;
+     }
+	 
+  .entryHeaderDate {
+     color: #bcc803;
+     }
+	 
+  .entryHeaderDate a {
+     color: #bcc803;
+     text-decoration: underline;
+     }
+
+  .entryHeaderDate a:hover {
+     color: #bcc803;
+     text-decoration: none;
+     }
+
+  .entryMetadata {
+     padding-left: 20px;
+	 margin: 10px 0;
+	 color:#999;
+     }
+
+  .entryMetadata ul {
+     margin: 0px;
+     padding: 0px;
+     }
+
+  .entryMetadata li {
+     list-style: none;
+     display: list-item;
+     padding-right: 10px;
+     }
+
+  .entryMetadata-label {
+     font-weight: bold;
+     padding-right: 4px;
+     }
+
+  .entryLinkbar {
+     font-family: ;
+     font-size: 12px;
+     color: #333333;
+     text-align: left;
+     padding: 4px 0;
+     }
+
+  .entryLinkbar ul {
+     margin: 0px;
+     padding: 0px;
+     }
+
+  .entryLinkbar li {
+     padding: 0px 5px 0px 5px;
+     margin: 0px;
+     display: inline;
+     }
+
+  .commentHolder {
+     color: #333333;
+     background-color: transparent;
+     font-family: ;
+     font-size: 13px;
+     margin: 4px 0px 4px 0px;
+     }
+
+  .commentUserinfo {
+     text-align: center; 
+     margin: 0px 8px 8px 0px;
+     background-color: transparent;
+     }
+
+  .commentUserinfo-usericon img {
+     border: 0;
+     }
+
+  .commentText {
+     padding: 6px;
+     }
+
+  .commentHeader {
+     background-color: transparent;
+     color: #bcc803;
+     font-family: trebuchet ms, arial, helvetica, sans-serif;
+     font-size: 18px;
+     padding: 4px 0px 4px 8px;
+     }
+
+  .commentHeader a{
+     color: #bcc803;
+     }
+
+  .commentHeaderScreened {
+     font-family: trebuchet ms, arial, helvetica, sans-serif;
+     font-size: 18px;
+     background-color: #f2f2f2;
+     padding: 4px 0px 4px 8px;
+     }
+
+  .commentHeaderSubject {
+     font-weight: bold;
+     }
+
+  .commentLinkbar {
+     font-size: 12px;
+     color: #333333;
+     text-align: left;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     }
+
+  .commentLinkbar ul {
+     margin: 0px;
+     padding: 0px;
+     }
+
+  .commentLinkbar li {
+     padding: 0px 5px 0px 5px;
+     margin: 0px;
+     display: inline;
+     }
+
+  .replyform {
+     background-color: #ffffff;
+     color: #333333;
+     padding-left: 10px;
+     }
+
+  .yearlinks{
+     text-align: right;
+     }
+
+  .yearlink{
+     padding-left:4px;
+     padding-right: 4px;
+     }
+
+  .month {
+     width: 500px;
+     border: 1px solid #dddddd;
+     margin: 8px 8px 8px 40px;
+     }
+
+  .daysubjects {
+     color: #333333;
+     padding: 8px 8px 8px 40px;
+     }
+
+  .daytitles {
+     text-align: center;
+     border: 1px solid #dddddd;
+     background: #eeeeee;
+     color: #333333;
+     }
+
+  .day-blank {
+     border: 1px solid #dddddd;
+    }
+
+  .day {
+     border: 1px solid #dddddd;
+     }
+
+  .day-date {
+     border-right: 1px solid #dddddd;
+     border-bottom: 1px solid #dddddd;
+     color: #333333;
+     width: 50%;
+     text-align: center;
+     }
+
+  .day-count {
+     width: 50%;
+     text-align: center;
+     float: right;
+     font-size: 20px;
+     }
+
+  .day-count a {
+     text-decoration: none;
+     color: #333333;
+     }
+  
+  .sidebar {
+     font-size: 13px;
+     margin-right: 40px;
+     width: 200px;
+     }
+
+  .sidebox {
+     color: #333333;
+     background-color: transparent;
+     margin: 0 0 30px 0;
+     }
+
+  .sideboxTitle {
+     background-color: transparent;
+     color: #bcc803;
+     font-family: trebuchet ms, arial, helvetica, sans-serif;
+     font-size: 16px;
+	 font-style:oblique;
+	 font-weight:bold;
+     padding: 0 0 8px 0;
+     text-align: left;
+     }
+
+  .sideboxContent {
+     text-align: left;
+     padding: 6px;
+     padding-left: 10px;
+     }
+
+  .sidebox #profile, .sidebox #latestmonth {
+     text-align: left;
+     }
+	 
+  .sidebox #search {
+     text-align: left;
+     }
+	 
+  .sidebox #tags_sidebox {
+     text-align: left;
+     }
+
+  .sidebox #systemlinks {
+     text-align: left;
+     }
+
+  .sidebox #latestmonth table{
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 4px;
+     }
+
+  .listtitle {
+     font-weight: bold;
+     }
+
+  .profile-label {
+     font-weight: bold;
+	 display:none;
+     }
+
+  .profile-userpic {
+     margin-bottom:5px;
+  }
+  
+  .tagstable, .tagstable td {
+     border: 1px solid #dddddd;
+     }
+
+  .tagstable { width: 500px; }
+  
