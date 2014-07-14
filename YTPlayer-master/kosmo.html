@@ -63,7 +63,13 @@
                 }
             });
 		});
-
+        var v = false;
+        function changeVideo(){
+            var vID = v ? "7SnmCUwOsts" : "BsekcY04xvQ";
+            jQuery('#bgndVideo').changeMovie({videoURL:vID});
+            $("#vidData").toggle(1000);
+            v = !v;
+        }
     </script>
 </head>
 <body>
@@ -81,7 +87,7 @@
 
 </div>
 
-<a id="bgndVideo" class="player" data-property="{videoURL:'8jg2-0jdNS8',containment:'body', showControls:false, autoPlay:true, loop:false, vol:50, mute:true, startAt:74, opacity:1, addRaster:false, quality:'highres'}">My video</a>
+<a id="bgndVideo" class="player" data-property="{videoURL:'8jg2-0jdNS8',containment:'body', showControls:false, autoPlay:true, loop:false, vol:50, mute:true, startAt:74, opacity:0.5, addRaster:false, quality:'highres'}">My video</a>
 
 </body>
 </html>
